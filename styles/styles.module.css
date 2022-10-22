@@ -1,0 +1,183 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.card{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p:hover{
+    cursor: pointer; 
+    background-color: #1d7390;
+    transition: all 0.7s linear;
+    
+}
+
+
+.li_coop:hover{
+    cursor: pointer; 
+    background-color: #1d7390;
+    transition: all 0.7s linear;
+    
+}
+
+.titulos{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.h1{
+    text-align: center;
+    color: #1a5d78;
+}
+
+.h1:hover{
+    color: #2bcab5;
+    cursor: pointer; 
+}
+
+.h2{
+    color: #1d7390;
+}
+
+.h4{
+    color: #239ca2;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+.pOb3{
+    background-color: #089F11;
+    border-color:#089F11;
+    border-radius: 4px;    
+    border-width: 1px;
+    border-style: solid;
+     
+}
+
+.pOb7{
+    background-color: #F9C505;
+    border-color:#F9C505;
+    border-radius: 4px;    
+    border-width: 1px;
+    border-style: solid;
+}
+
+.pOb9{
+    background-color: #F96505;
+    border-color:#F9C505;
+    border-radius: 4px;    
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+.pOb12{
+    background-color: #CF8F05;
+    border-color:#CF8F05;
+    border-radius: 4px;    
+    border-width: 1px;
+    border-style: solid;
+}
+
+.pOb17{
+    background-color: #195B89;
+    border-color:#195B89;
+    border-radius: 4px;    
+    border-width: 1px;
+    border-style: solid;
+}
+
+.pOb3,.pOb7,.pOb9,.pOb12,.pOb17:hover{
+    cursor:pointer;
+}
+
+.navbar_backg{
+    background-color:  #21618c;
+    align-items: center;
+    right: 0%;
+    left: -0.5%;
+    width: 100vw;
+    position:relative;
+}
+
+.footer{
+    background-color: #283747;
+    color: beige;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    position:absolute;
+    left:0%;
+    right: 0%;
+}
+
+.img_sociales{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.img_sociales:hover{
+    transform: translateY(-1px);
+    transition: ease-in;
+    
+}
+
+.img-header{
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    flex-direction: row;
+    display: inline-flex;
+    
+}
+
+
+.header{
+    left: 0%;
+    right: 0%;
+    width: 100vw;
+   position:relative;
+
+
+}
+
+.col_abejas{
+    flex-direction: row;
+    display: inline-flex;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
+
+
+
+/*estos son los colores
+.color1 {color: #394d70;}
+.color2 {color: #1a5d78;}
+.color3 {color: #1d7390;}
+.color4 {color: #239ca2;}
+.color5 {color: #2bcab5;}*/
