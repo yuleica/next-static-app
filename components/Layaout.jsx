@@ -17,7 +17,7 @@ export default function Layaout({children, title, description, home}) {
         </Head>
         <header><Header /></header>
         <Navbar />       
-      <main>{children}</main>
+        <main>{children}</main>
         {!home && (
             <div>
                 <Link  href="/">
